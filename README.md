@@ -1,2 +1,6 @@
 # gpss-python
-GPSS stays for General Purpose Simulation System. GPSS-WORLD is application that allows to simulate processes using GPSS programming language.
+GPSS stays for General Purpose Simulation System. [GPSS-WORLD](http://www.minutemansoftware.com/downloads.asp) is application that allows to simulate processes using GPSS programming language.
+
+This programm was made in educational purpose. I used Python 3 programming language to complete task below.
+
+Task: At the car service station, 4 workers perform two types of work: tire fitting and balancing. Each operation is performed by two workers, but there are two jobs for tire fitting. The car flow is Poisson with an interval value of 35 minutes. 80% of cars will be subjected to both tire balancing and balancing, and the rest - equiprobable to one of the operations. The service time of the car is distributed exponentially with an average value of 45 minutes for tire fitting and 15 minutes for balancing. If customers drive up and do not find a free place to wait, they leave. It is necessary to find out how many parking spaces should be allocated for cars waiting for maintenance. It is necessary to write a model of such a system and use it to research the system using one, two, three parking spaces. Determine the optimal number of parking spaces. In each of these cases, it is necessary to simulate the work during the eight-hour working day and estimate the proportion of clients left without service.
